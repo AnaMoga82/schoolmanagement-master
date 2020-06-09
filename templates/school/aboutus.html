@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ro" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Liceul Tehnologic Ioan Corivan </title>
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+
+  {% include "school/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">Despre Noi</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    <h1 class="display-4">Liceul Tehnologic „Ioan Corivan” Huşi</h1>
+    <p1 class="lead">Este situat  în municipiul Huşi din judeţul Vaslui şi deserveşte o zonă de aproximativ 50 de kilometri pătraţi.
+                    Unitatea de învăţământ a fost înfiinţată în anul 1912 ca Şcoala practică de meserii şi şi-a pastrat de-a lungul timpului
+                    profilul tehnologic, asigurând pregătirea profesională a tinerilor din zona Huşi în conformitate cu dezvoltarea economică a zonei,
+                    prin şcolă de meserii, şcoală profesională şi de ucenici, şcoală de arte şi meserii, liceu tehnologic.
+                    În anul şcolar 2019-2020, la Liceul Tehnologic „Ioan Corivan” Husi sunt înscrişi  550 de elevi cu vârste între 14 şi 19 ani care
+                    frecventează cursurile învăţămâtului tehnologic, cursuri de zi, în domeniile Mecanică, Industrie textilă şi pielărie, Comert,
+                    Turism şi alimentaţie, liceu tehnologic, şcoală profesională.</p1>
+    <hr class="my-4">
+    <p>Exploreaza siteul nostru.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">ACASA</a>
+    </p>
+  </div>
+
+  {% include "school/footer.html" %}
+</body>
+
+</html>
